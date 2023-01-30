@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.todoCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.todoTitle {
+  text-align: left;
+  color: #000000;
+  font-family: Roboto;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.delete-button {
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #ff0b37;
+  font-family: Roboto;
+  height: 30px;
+  width: 80px;
+}
